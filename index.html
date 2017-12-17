@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <html>
+<script src="https://use.fontawesome.com/51b73c8fb8.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Alegreya:700i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:500" rel="stylesheet">
+
+<body onload="getWeatherData">
+  <div class="mainContainer">
+    <div id="pageContainer">
+      <div class="tempOutCont">
+        <div class="tempInCont">
+          <span id="headDetails"></span>
+          <div id="iconTemp">
+            <img id="icon"></img>
+            <span id="mainWeather"></span>
+            <a id="unitLink" href="#" title="Convert Unit from °C to °F and vice versa"></a>
+          </div>
+          <div id="detailsContainer">
+            <span id="detailsHead">Details</span>
+            <div id="listDetails">
+              <ul>
+                <li>Wind<span id="windText" class="listDetailsItem"></span></li>
+                <li>Pressure<span id="pressureText" class="listDetailsItem"></span></li>
+                <li>Humidity<span id="humidText" class="listDetailsItem"></span></li>
+                <li>Cloudiness<span id="cloudText" class="listDetailsItem"></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span id="credit">By Shantanu Tomar</span>
+      <div class="spinner">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
